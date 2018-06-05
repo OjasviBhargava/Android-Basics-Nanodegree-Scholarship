@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Harisons International</string>
+    <string name="comp_name">Harisons International</string>
+    <string name="about_comp">Harisons International Has been found in 1996, and aims at providing the best in class hand tools and tools polishing chemicals. We are a Tooling solution provider for your C.N.C. machines. Get best economical carbide tools(NEW/RE-SHARP) from us.</string>
+    <string name="content">Harisons Int.</string>
+    <string name="abt">About</string>
+    <string name="open">Opening Hours</string>
+    <string name="time">8:00 am to 9:00 pm</string>
+    <string name="call">Call us at</string>
+    <string name="num">9814129544</string>
+    <string name="visit">Visit us at</string>
+    <string name="web">www.harisoninternational.com</string>
+</resources>

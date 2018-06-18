@@ -25,4 +25,23 @@ I have made the project for a local hand tools company "Harisons International" 
 <img src="https://imgur.com/1G0T5zm.jpg" width="250" hspace="20"><img src="https://imgur.com/9sDM9jY.jpg" width="250"  hspace="40"><img src="https://imgur.com/fVSqMO2.jpg" width="250">
 
 
+## Build a score keeper app
+
+### Project Requirements
+
+Your design must include:
+
+1) Either multiple amounts of points that can be scored, as in american football, or multiple important metrics to track, such as fouls, outs, and innings in baseball. </br>
+2) App is divided into two columns, one for each team. </br>
+3) Each column contains a large TextView to keep track of the current score for that team. </br>
+4) Each column contains multiple buttons to track scoring </br>
+5) The layout contains a ‘reset’ button. </br>
+
+### My Implementation of the project
+
+I have made an Archery Score Keeper App. The buttons are coloured according to their colour on the dartboard of an Archery Game. The farthest (coloured white) fetches the least scores, while the innermost (coloured yellow) fetches the highest scores and so on. Scrollview has been used to implement the project.
+
+### Screenshots
+
+<img src="https://imgur.com/L47OvYC.jpg" width="250" hspace="20"><img src="https://imgur.com/3o9tclg.jpg" width="250"  hspace="40"><img src="https://imgur.com/tdIvNRh.jpg" width="250">
 

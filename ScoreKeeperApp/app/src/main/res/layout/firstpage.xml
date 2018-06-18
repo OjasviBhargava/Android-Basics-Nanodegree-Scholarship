@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPage">
+
+
+    <ImageView
+        android:background="@drawable/archery1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="top"
+        android:padding="@dimen/dimen_16dp"
+        android:text="@string/desc"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/dimen_56sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:onClick="launchGame"
+        android:id="@+id/but1"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/dimen_82dp"
+        android:layout_marginLeft="@dimen/dimen_18dp"
+        android:layout_marginStart="@dimen/dimen_18dp"
+        android:text="@string/play"
+        android:background="@color/red"
+        android:textColor="@android:color/white"
+
+        />
+
+
+</RelativeLayout>

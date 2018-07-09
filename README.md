@@ -24,6 +24,7 @@ I have made the project for a local hand tools company "Harisons International" 
 
 <img src="https://imgur.com/1G0T5zm.jpg" width="250" hspace="20"><img src="https://imgur.com/9sDM9jY.jpg" width="250"  hspace="40"><img src="https://imgur.com/fVSqMO2.jpg" width="250">
 
+**YouTube Link** - https://www.youtube.com/watch?v=eVpTyoWb-Ts
 
 ## Build a score keeper app
 
@@ -44,4 +45,23 @@ I have made an Archery Score Keeper App. The buttons are coloured according to t
 ### Screenshots
 
 <img src="https://imgur.com/L47OvYC.jpg" width="250" hspace="20"><img src="https://imgur.com/3o9tclg.jpg" width="250"  hspace="40"><img src="https://imgur.com/tdIvNRh.jpg" width="250">
+
+**YouTube Link** - https://www.youtube.com/watch?v=2T-CGINDiPE
+
+
+## Build a Quiz app
+
+### Project Requirements
+
+The app must include:
+
+1) 4 - 10 questions, including at least one check box, one radio button, and one text entry. </br>
+2) Questions are in a variety of formats such as free text response, checkboxes, and radio buttons. </br>
+3) App includes a button for the user to submit their answers and receive a score. </br>
+4) The app gracefully handles displaying all the content on screen when rotated. (this is achieved by adding ScrollView) </br>
+5) The grading logic checks each answer correctly. The app accurately calculates the number of correct answers </br>
+
+### My Implementation of the project
+
+I have made a GitHub quiz. The quiz contains 5 questions, out of which there is one editText field question, one checkBox question and the rest three are radiogroups. Toast messages are raised if the person doesn't complete the whole quiz or leaves one or more answer(s) blank. Toast messages are also raised according to the quiz-taker's performance.
 

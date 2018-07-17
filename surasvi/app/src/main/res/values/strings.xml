@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">surasvi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Albums</string>
+    <string name="title_about">About Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dua_lipa">Dua Lipa</string>
+    <string name="dua_lipa_dua_lipa_new_rules">Dua Lipa, Dua Lipa - New Rules</string>
+    <string name="song_cover">Song Cover</string>
+    <string name="overflow">Overflow</string>
+    <string name="startTime">00:02</string>
+    <string name="endTime">04:05</string>
+    <string name="skip">Skip</string>
+    <string name="play">Play</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="prev">Previous</string>
+    <string name="splash">Splash</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="favourites">Favourites</string>
+    <string name="my_downloads">My Downloads</string>
+    <string name="now_playing">Player</string>
+</resources>

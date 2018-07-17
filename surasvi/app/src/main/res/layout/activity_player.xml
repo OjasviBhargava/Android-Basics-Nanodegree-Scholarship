@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ojasvi.surasvi.PlayerActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:contentInsetLeft="@dimen/dimen_0dp"
+        android:background="@color/colorPrimary"
+        app:contentInsetStart="@dimen/dimen_0dp"
+        app:contentInsetStartWithNavigation="@dimen/dimen_0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/now_playing"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_24sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_below="@+id/toolbar"
+        android:contentDescription="@string/song_cover"
+        android:layout_marginEnd="@dimen/dimen_30dp"
+        android:layout_marginStart="@dimen/dimen_30dp"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:src="@drawable/dua_lipa"
+        android:id="@+id/image_currentSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:layout_below="@+id/image_currentSong"
+        android:id="@+id/relLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="RelativeOverlap">
+
+            <TextView
+                android:textSize="@dimen/text_20sp"
+                android:layout_marginStart="@dimen/dim_10dp"
+                android:layout_marginTop="@dimen/dim_15dp"
+                android:textStyle="bold"
+                android:layout_gravity="start"
+                android:id="@+id/song_title"
+                android:text="@string/dua_lipa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginStart="@dimen/dim_10dp"
+                android:textSize="@dimen/text_18sp"
+                android:layout_marginTop="@dimen/dim_15dp"
+                android:id="@+id/song_desc"
+                android:text="@string/dua_lipa_dua_lipa_new_rules"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:contentDescription="@string/overflow"
+            android:layout_marginEnd="@dimen/dimen_4dp"
+            android:layout_marginTop="@dimen/dimen_100dp"
+            android:background="@android:color/white"
+            android:id="@+id/song_overflow_button"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_file_download_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_above="@id/relLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginStart="@dimen/dimen_4dp"
+            android:id="@+id/startDur"
+            android:layout_alignParentStart="true"
+            android:text="@string/startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:layout_below="@+id/startDur"
+            android:layout_marginBottom="@dimen/dimen_12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginEnd="@dimen/dimen_4dp"
+            android:id="@+id/endDur"
+            android:layout_alignParentEnd="true"
+            android:text="@string/endTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayout1"
+        android:padding="@dimen/dimen_8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/repeatSong"
+            android:src="@drawable/ic_repeat_black_24dp"
+            android:layout_alignParentStart="true"
+            android:layout_width="@dimen/dimen_30dp"
+            android:layout_height="@dimen/dimen_30dp" />
+
+        <ImageView
+            android:contentDescription="@string/prev"
+            android:layout_toStartOf="@id/playSong"
+            android:id="@+id/skipPrev"
+            android:src="@drawable/ic_skip_previous_black_24dp"
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp" />
+
+        <ImageView
+            android:contentDescription="@string/play"
+            android:id="@+id/playSong"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp" />
+
+        <ImageView
+            android:contentDescription="@string/skip"
+            android:layout_toEndOf="@id/playSong"
+            android:id="@+id/skipNext"
+            android:src="@drawable/ic_skip_next_black_24dp"
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp" />
+
+        <ImageView
+            android:contentDescription="@string/shuffle"
+            android:id="@+id/songShuffle"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_queue_music_black_24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="@dimen/dimen_30dp"
+            android:layout_height="@dimen/dimen_30dp" />
+    </RelativeLayout>
+</RelativeLayout>

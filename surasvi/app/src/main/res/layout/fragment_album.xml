@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ojasvi.surasvi.AlbumFragment">
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen_4dp"
+        android:columnWidth="@dimen/dimen_large"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/dimen_10dp"
+        android:horizontalSpacing="@dimen/dim_10dp"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:visibility="visible"/>
+</FrameLayout>

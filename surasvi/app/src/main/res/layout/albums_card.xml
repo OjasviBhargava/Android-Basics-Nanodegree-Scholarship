@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:contentDescription="@string/song_cover"
+        android:id="@+id/album_thumbnail"
+        android:layout_width="@dimen/dimen_large"
+        android:layout_height="@dimen/dimen_large"
+        android:layout_margin="@dimen/dimen_4dp"
+        android:src="@drawable/dua_lipa_album"/>
+
+    <LinearLayout
+        android:layout_width="@dimen/dimen_large"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/album_thumbnail"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_4dp"
+            android:maxLines="1"
+            android:scrollbars="horizontal"
+            tools:text="Name" />
+    </LinearLayout>
+</RelativeLayout>

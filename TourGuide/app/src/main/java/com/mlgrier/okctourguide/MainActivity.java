@@ -1,4 +1,4 @@
-package com.mlgrier.okctourguide;
+package com.example.ojasvi.tourguide;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Create a new intent to open the {@link Events Activity
-                Intent eventsIntent = new Intent(MainActivity.this, EventsActivity.class);
+                Intent eventsIntent = new Intent(MainActivity.this, com.example.ojasvi.tourguide.EventsActivity.class);
                 //Start the new activity
                 startActivity(eventsIntent);
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         casinos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent casinosIntent = new Intent(MainActivity.this, CasinosActivity.class);
+                Intent casinosIntent = new Intent(MainActivity.this, com.example.ojasvi.tourguide.CasinosActivity.class);
                 startActivity(casinosIntent);
             }
         });
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         family.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent familyIntent = new Intent(MainActivity.this, FamilyActivity.class);
+                Intent familyIntent = new Intent(MainActivity.this, com.example.ojasvi.tourguide.FamilyActivity.class);
                 startActivity(familyIntent);
             }
         });

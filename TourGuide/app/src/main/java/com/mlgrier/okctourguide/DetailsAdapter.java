@@ -1,4 +1,4 @@
-package com.mlgrier.okctourguide;
+package com.example.ojasvi.tourguide;
 
 import android.app.Activity;
 import android.support.v4.content.ContextCompat;

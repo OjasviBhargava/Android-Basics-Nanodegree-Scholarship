@@ -1,8 +1,10 @@
-package com.mlgrier.okctourguide;
+package com.example.ojasvi.tourguide;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
+
+import com.mlgrier.okctourguide.DetailsAdapter;
 
 import java.util.ArrayList;
 

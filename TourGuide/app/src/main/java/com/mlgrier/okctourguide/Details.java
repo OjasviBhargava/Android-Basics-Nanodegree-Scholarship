@@ -1,8 +1,5 @@
-package com.mlgrier.okctourguide;
+package com.example.ojasvi.tourguide;
 
-/**
- * Created by mlgrier on 8/29/16.
- */
 public class Details {
 
     //Default details
@@ -34,7 +31,7 @@ public class Details {
         return mDetailName;
     }
 
-    // Get the Miwok translation of the word.
+
     public String getMoreInfo() {
         return mMoreInfo;
     }

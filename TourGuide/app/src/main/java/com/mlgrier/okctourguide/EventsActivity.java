@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
+import com.example.ojasvi.tourguide.DetailsAdapter;
+import com.example.ojasvi.tourguide.R;
+
 import java.util.ArrayList;
 
 public class EventsActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.mlgrier.okctourguide;
+package com.example.ojasvi.tourguide;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -39,7 +39,7 @@ public class NatureActivity extends AppCompatActivity {
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
         // This code with a few changes can be used for a GridView also
-        DetailsAdapter adapter = new DetailsAdapter(this, detail, R.color.categoryNature);
+        com.example.ojasvi.tourguide.DetailsAdapter adapter = new com.example.ojasvi.tourguide.DetailsAdapter(this, detail, R.color.categoryNature);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

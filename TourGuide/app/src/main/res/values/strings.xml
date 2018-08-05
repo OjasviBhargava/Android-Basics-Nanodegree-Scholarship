@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">India Tour Guide</string>
-        <string name="category_events">Festivals and Events</string>
-        <string name="category_casinos">Nightlife and Casinos</string>
-        <string name="category_family">Family Activities</string>
-        <string name="category_nature">Nature and Outdoors</string>
-</resources>

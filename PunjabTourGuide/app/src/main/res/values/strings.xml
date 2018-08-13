@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Punjab Tour Guide</string>
+
+    <!-- Patiala Attractions -->
+    <string name="patiala_attraction_name_1">Gurudwara Dukh Nivaran Sahab</string>
+    <string name="patiala_attraction_phone_1">0175 335482</string>
+    <string name="patiala_attraction_address_1">Gurudwara Dukh Nivaran Sahab, Passey Road Patiala</string>
+    <string name="patiala_attraction_imageurl_1">https://imgur.com/D5atw6Q.jpg</string>
+    <string name="patiala_attraction_name_2">Kali Mata Mandir</string>
+    <string name="patiala_attraction_phone_2">0175 231 1324</string>
+    <string name="patiala_attraction_address_2">Manjit Nagar, Sidhu Colony, Patiala</string>
+    <string name="patiala_attraction_imageurl_2">https://imgur.com/hCZDrx8.jpg</string>
+    <string name="patiala_attraction_name_3">Sheesh Mahal</string>
+    <string name="patiala_attraction_phone_3"></string>
+    <string name="patiala_attraction_address_3">Old Moti Bagh, Moti Bagh, Patiala</string>
+    <string name="patiala_attraction_imageurl_3">https://imgur.com/fxHYlx1.jpg</string>
+    <string name="patiala_attraction_name_4">Barandari Garden</string>
+    <string name="patiala_attraction_phone_4">099968 74000</string>
+    <string name="patiala_attraction_address_4">Baradari Garden, Baradari, Patiala</string>
+    <string name="patiala_attraction_imageurl_4">https://imgur.com/7O9tfeI.jpg</string>
+    <string name="patiala_attraction_name_5">Dhillon\'s Fun World</string>
+    <string name="patiala_attraction_phone_5">098780 82821</string>
+    <string name="patiala_attraction_address_5">Jodiyan Sadkan, Devigarh Road, Patiala</string>
+    <string name="patiala_attraction_imageurl_5">https://imgur.com/4vLqNAw.jpg</string>
+
+    <!-- Jalandhar Attractions -->
+    <string name="jalandhar_attraction_name_1">Devi Talab Mandir</string>
+    <string name="jalandhar_attraction_phone_1">0181 229 1252</string>
+    <string name="jalandhar_attraction_address_1">Tanda Road, Shiv Nagar, Industrial Area, Jalandhar</string>
+    <string name="jalandhar_attraction_imageurl_1">https://imgur.com/DQsBw7o.jpg</string>
+    <string name="jalandhar_attraction_name_2">Pushpa Gujral Science City</string>
+    <string name="jalandhar_attraction_phone_2">91-1822-501962</string>
+    <string name="jalandhar_attraction_address_2">Pushpa Gujral Science City, Jalandhar-Kapurthala Road, Kapurthala</string>
+    <string name="jalandhar_attraction_imageurl_2">https://imgur.com/Cy1eZY5.jpg</string>
+    <string name="jalandhar_attraction_name_3">Baba Sodal Mandir</string>
+    <string name="jalandhar_attraction_phone_3">099991 89269</string>
+    <string name="jalandhar_attraction_address_3">Sodal Rd, Sodal Chowk, Shiv Nagar, Industrial Area, Jalandhar</string>
+    <string name="jalandhar_attraction_imageurl_3">https://imgur.com/Utj7uKM.jpg</string>
+    <string name="jalandhar_attraction_name_4">Model Town Market</string>
+    <string name="jalandhar_attraction_phone_4">0181-4647548</string>
+    <string name="jalandhar_attraction_address_4">Model Town Market, Jalandhar</string>
+    <string name="jalandhar_attraction_imageurl_4">https://imgur.com/Ct43PtR.jpg</string>
+
+    <!-- Chandigarh Attractions -->
+    <string name="chandigarh_attraction_name_1">Rock Garden</string>
+    <string name="chandigarh_attraction_phone_1">+91 172 740 645</string>
+    <string name="chandigarh_attraction_address_1">Rock GardenSector 1, Chandigarh</string>
+    <string name="chandigarh_attraction_imageurl_1">https://imgur.com/OZu9ewn</string>
+    <string name="chandigarh_attraction_name_2">Zakir Hussain Rose Garden</string>
+    <string name="chandigarh_attraction_phone_2">+91 172 2700054</string>
+    <string name="chandigarh_attraction_address_2">Jan Marg, 16B, Sector 16, Chandigarh</string>
+    <string name="chandigarh_attraction_imageurl_2">https://imgur.com/jop0aVe.jpg</string>
+    <string name="chandigarh_attraction_name_3">Sukhna Lake</string>
+    <string name="chandigarh_attraction_phone_3">+91 90418 60645</string>
+    <string name="chandigarh_attraction_address_3">Sukhna Lake, Sector 1, Chandigarh</string>
+    <string name="chandigarh_attraction_imageurl_3">https://imgur.com/lwsiCYn.jpg</string>
+    <string name="chandigarh_attraction_name_4">Chhatbir Zoo</string>
+    <string name="chandigarh_attraction_phone_4">01762 293 303</string>
+    <string name="chandigarh_attraction_address_4"> Chattbir Zoo Rd, Sahibzada Ajit Singh Nagar, Chhat, Chandigarh</string>
+    <string name="chandigarh_attraction_imageurl_4">https://imgur.com/r5YKGg0.jpg</string>
+    <string name="chandigarh_attraction_name_5">Elanté Mall</string>
+    <string name="chandigarh_attraction_phone_5">172 50050000</string>
+    <string name="chandigarh_attraction_address_5">178-178A, Purv Marg, Industrial Area Phase I, Chandigarh</string>
+    <string name="chandigarh_attraction_imageurl_5">https://imgur.com/ZZZ7tvg.jpg</string>
+
+    <!-- Amritsar Attractions -->
+    <string name="amritsar_attraction_name_1">Golden Temple</string>
+    <string name="amritsar_attraction_phone_1">+0183 255 3957</string>
+    <string name="amritsar_attraction_address_1">Golden Temple Rd, Atta Mandi, Katra Ahluwalia, Amritsar</string>
+    <string name="amritsar_attraction_imageurl_1">https://imgur.com/PiOFEFi.jpg</string>
+    <string name="amritsar_attraction_name_2">Jallianwala Bagh</string>
+    <string name="amritsar_attraction_phone_2">+91 172 2625950</string>
+    <string name="amritsar_attraction_address_2">Golden Temple Rd, Amritsar</string>
+    <string name="amritsar_attraction_imageurl_2">https://imgur.com/OQDjspl.jpg</string>
+    <string name="amritsar_attraction_name_3">Durgiana Mandir</string>
+    <string name="amritsar_attraction_phone_3">0183 255 0700</string>
+    <string name="amritsar_attraction_address_3">Hathi Gate, Goal Bagh, Amritsar</string>
+    <string name="amritsar_attraction_imageurl_3">https://imgur.com/Lno6uBE.jpg</string>
+    <string name="amritsar_attraction_name_4">Wagah Border</string>
+    <string name="amritsar_attraction_phone_4">+91 98101 15661</string>
+    <string name="amritsar_attraction_address_4">Attari-Wagah Border, Attari, Amritsar</string>
+    <string name="amritsar_attraction_imageurl_4">https://imgur.com/5xIC1QW.jpg</string>
+    <string name="amritsar_attraction_name_5">Maharaja Ranjit Singh Museum</string>
+    <string name="amritsar_attraction_phone_5">+91 98727 74777</string>
+    <string name="amritsar_attraction_address_5">Ram Bagh, Lawrence Road, Amritsar</string>
+    <string name="amritsar_attraction_imageurl_5">https://imgur.com/iAt82GL</string>
+</resources>

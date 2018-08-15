@@ -16,10 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PatialaActivity" android:label="Patiala" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".JalandharActivity" android:label="Jalandhar" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".ChandigarhActivity" android:label="Chandigarh" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".AmritsarActivity" android:label="Amritsar" android:parentActivityName=".MainActivity"/>
     </application>
-    <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>

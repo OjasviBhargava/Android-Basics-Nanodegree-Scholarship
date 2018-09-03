@@ -22,12 +22,10 @@ import java.util.List;
  */
 
 public class QueryUtils {
-    private static String REQUEST_URL =
-            "http://content.guardianapis.com/search?show-tags=contributor" +
-                    "&api-key=fe71bc46-c646-4dc6-8db7-e6e5a31b8437&q=india";
 
     static URL formURL() {
-        String stringUrl = REQUEST_URL;
+        String stringUrl = "http://content.guardianapis.com/search?show-tags=contributor" +
+                "&api-key=fe71bc46-c646-4dc6-8db7-e6e5a31b8437&q=india";
         try {
             return new URL(stringUrl);
         } catch (MalformedURLException e) {
@@ -95,6 +93,7 @@ public class QueryUtils {
                 String webTitle = resultJSON.getString("webTitle");
                 String link = resultJSON.getString("webUrl");
                 String date = resultJSON.getString("webPublicationDate");
+                String section = resultJSON.getString("sectionName");
                 JSONArray tagsArray = resultJSON.getJSONArray("tags");
                 StringBuilder writer = new StringBuilder();
                 if (tagsArray.length() == 0) {
@@ -106,7 +105,7 @@ public class QueryUtils {
                     }
                 }
                 if (writer != null) {
-                    newsList.add(new News(webTitle, writer.toString(), link, date));
+                    newsList.add(new News(webTitle, date, link, section, writer.toString()));
                 }
             }
         } catch (JSONException e) {

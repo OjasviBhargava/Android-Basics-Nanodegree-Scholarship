@@ -27,12 +27,14 @@ public class CustomAdapter extends ArrayAdapter<News> {
         }
         TextView title = convertView.findViewById(R.id.title_news);
         TextView writer = convertView.findViewById(R.id.writer_news);
+        TextView section = convertView.findViewById(R.id.section);
         TextView date = convertView.findViewById(R.id.date);
 
         News currentNews = getItem(position);
         title.setText(currentNews.getNewsHeading());
         writer.setText(currentNews.getNewsWriter());
         date.setText(currentNews.getNewsDate());
+        section.setText(currentNews.getSection());
         return convertView;
     }
 }

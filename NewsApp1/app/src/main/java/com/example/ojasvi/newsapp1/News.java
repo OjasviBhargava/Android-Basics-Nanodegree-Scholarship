@@ -5,15 +5,18 @@ package com.example.ojasvi.newsapp1;
  */
 
 public class News {
+
     String newsHeading;
     String newsDate;
     String newsLink;
+    String section;
     String newsWriter;
 
-    public News(String newsHeading, String newsDate, String newsLink, String newsWriter) {
+    public News(String newsHeading, String newsDate, String newsLink, String section,String newsWriter) {
         this.newsHeading = newsHeading;
         this.newsDate = newsDate;
         this.newsLink = newsLink;
+        this.section = section;
         this.newsWriter = newsWriter;
     }
 
@@ -33,4 +36,7 @@ public class News {
         return newsLink;
     }
 
+    public String getSection() {
+        return section;
+    }
 }

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">News Application</string>
+
+    <string name="no_news">No news found.</string>
+    <string name="no_internet_connection">No internet connection. Please try again later</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Settings</string>
+
+    <string name="settings_page_size_label">Page Size</string>
+    <string name="settings_page_size_key" translatable="false">page-size</string>
+    <string name="settings_page_size_default" translatable="false">10</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <string-array name="settings_section_labels">
+        <item>@string/settings_category_all_news</item>
+        <item>@string/settings_category_australia_news</item>
+        <item>@string/settings_category_media_news</item>
+        <item>@string/settings_category_business_news</item>
+        <item>@string/settings_category_society</item>
+        <item>@string/settings_category_film_news</item>
+        <item>@string/settings_category_world_news</item>
+    </string-array>
+
+    <string-array name="settings_section_values">
+        <item>@string/settings_section_all_news_value</item>
+        <item>@string/settings_section_australia_news_news_value</item>
+        <item>@string/settings_section_media_network_news_value</item>
+        <item>@string/settings_section_Business_value</item>
+        <item>@string/settings_section_society_value</item>
+        <item>@string/settings_section_Film_value</item>
+        <item>@string/settings_section_world_news_value</item>
+    </string-array>
+
+    <string name="settings_section_label">Section</string>
+    <string name="settings_section_news_key" translatable="false">section</string>
+    <string name="settings_section_news_default" translatable="false">@string/settings_section_all_news_value</string>
+
+    <string name="settings_category_all_news">All</string>
+    <string name="settings_section_all_news_value" translatable="false"></string>
+
+    <string name="settings_category_australia_news">Australia news</string>
+    <string name="settings_section_australia_news_news_value" translatable="false">australia-news</string>
+
+    <string name="settings_category_world_news">World news</string>
+    <string name="settings_section_world_news_value" translatable="false">world</string>
+
+    <string name="settings_category_media_news">Media Network</string>
+    <string name="settings_section_media_network_news_value" translatable="false">media-network</string>
+
+    <string name="settings_category_society">Society</string>
+    <string name="settings_section_society_value" translatable="false">society</string>
+
+    <string name="settings_category_business_news">Business</string>
+    <string name="settings_section_Business_value" translatable="false">business</string>
+
+    <string name="settings_category_film_news">Film</string>
+    <string name="settings_section_Film_value" translatable="false">film</string>
+
+</resources>

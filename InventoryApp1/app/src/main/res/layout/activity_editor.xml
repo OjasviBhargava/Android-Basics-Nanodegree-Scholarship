@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/product_name_text_view_text" />
+
+        <EditText
+            android:id="@+id/p_name"
+            style="@style/EditTextStyle"
+            android:hint="@string/product_name_edit_text_hint"
+            android:inputType="textAutoCorrect" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/product_price_text_view_text" />
+
+        <EditText
+            android:id="@+id/p_price"
+            style="@style/EditTextStyle"
+            android:hint="@string/product_price_edit_text_hint"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/product_quantity_text_view_text" />
+
+        <EditText
+            android:id="@+id/quantity_et"
+            style="@style/EditTextStyle"
+            android:hint="@string/product_quantity_edit_text_hint"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/supplier_name_text_view_text" />
+
+        <EditText
+            android:id="@+id/supplier_name"
+            style="@style/EditTextStyle"
+            android:hint="@string/supplier_name_edit_text_hint"
+            android:inputType="textAutoCorrect" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/supplier_phone_number_text_view_text" />
+
+        <EditText
+            android:id="@+id/supplier_phone_number"
+            style="@style/EditTextStyle"
+            android:hint="@string/supplier_phone_number_edit_text_hint"
+            android:inputType="textAutoCorrect" />
+    </LinearLayout>
+</LinearLayout>
